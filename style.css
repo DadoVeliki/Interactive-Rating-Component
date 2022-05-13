@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    overflow: visible;
+    font-family: Overpass;
+}
+body{
+    min-height: 100vh;
+    background-color: hsl(216, 12%, 8%);
+    color:white;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+p{
+   font-size: 15px; 
+   color:gray;
+   
+}
+.p1{
+    text-align: left;
+}
+.p2{
+    text-align: center;
+}
+.container{
+    display: flex;
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 30px;
+    width:450px;
+    height: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    align-items: center;
+
+}
+.glavni{
+    padding:30px;
+}
+.drugi{
+    display: none;
+    
+}
+.btn1,.btn3,.btn4{
+    border:0;
+    font-size: 15px;
+    border-radius: 50%;
+    background-color: #3D3C3C;
+    color:white;
+    width:50px;
+    height: 50px;
+    
+}
+.slika{
+    margin-top: -60px;
+    margin-bottom: 30px;
+}
+.btn1{
+    margin-right:30px;
+}
+.btn1:hover,.btn3:hover{
+    background-color: hsl(25, 97%, 53%);
+    color:white;
+}
+.btn2{
+    color:white;
+    width:100%;
+    background-color: hsl(25, 97%, 53%);
+    border:0;
+    height:50px;
+    border-radius: 30px;
+    font-size:larger;
+}
+.btn2:hover{
+    color:hsl(25, 97%, 53%);
+    background-color: white;
+}
+.btn6{
+    margin-bottom: 30px;
+}
+.hvala{
+    margin-bottom: 30px;
+}
+.attribution{
+    display: none;
+}
+.btn6{
+    color:hsl(25, 97%, 53%);
+    background-color: #3D3C3C;
+    border:0;
+    border-radius: 20px;
+    height: 30px;
+    width: 200px;
+
+}
+
